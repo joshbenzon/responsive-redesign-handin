@@ -30,7 +30,7 @@
     </head>
 
     <body>
-        <section>
+        <section id="title">
             <h1>Responsive Redesign</h1>
             <p>
                 Improving the user interface and user experience for a movie
@@ -46,6 +46,8 @@
                 HTML and CSS.
             </p>
         </section>
+
+        <hr class="outer-divider" />
 
         <section>
             <h2>Part 1: Identifying Usability Problems</h2>
@@ -64,8 +66,120 @@
                     important elements when I’m reading a review section.
                 </p>
 
-                <img src="" alt="" />
+                <div class="image">
+                    <img
+                        src="./old-designs/Old Design (1).png"
+                        alt="Old Design of LetterBoxd"
+                    />
+                    <p class="caption">
+                        Currently, this is what the design is. See full website
+                        <a
+                            href="https://letterboxd.com/jbenzon/film/turning-red/"
+                            target="_blank"
+                            >here</a
+                        >!
+                    </p>
+                </div>
+            </section>
+
+            <hr class="inner-divider" />
+
+            <section>
+                <h3>Finding Problems</h3>
+                <p>
+                    Next, I analyzed the problems with the application's
+                    interface by creating an infographic with annotations of the
+                    elements and writing a list about its Learnability,
+                    Memorability, and Efficiency.
+                </p>
+
+                <div class="image">
+                    <img
+                        src="./old-designs/Old Design (1).png"
+                        alt="Old Design of LetterBoxd"
+                    />
+                    <p class="caption">
+                        Here are the main issues with the interface.
+                    </p>
+                </div>
+
+                <div class="bullets">
+                    <h4>Learnability</h4>
+                    <ul>
+                        <li>
+                            Text for different links (rather than icons is
+                            helpful), but feels too cluttered and even
+                            overwhelming for new users
+                        </li>
+                        <li>
+                            Hover states only show two icons, but most users
+                            want it to put it in a list, so it’s hard for users
+                            to know how to add to a list since there’s no quick
+                            icon to go to
+                        </li>
+                        <li>
+                            Friend (or other) reviews aren’t shown immediately
+                            unless users click on each friend icon
+                        </li>
+                    </ul>
+
+                    <h4>Memorability</h4>
+                    <ul>
+                        <li>
+                            Workflow is similar to DVD stands “RedBox” and
+                            “BlockBuster,” as shape and grid display is familiar
+                        </li>
+                        <li>
+                            Review ratings and comments is similar to most movie
+                            review and social media comment sections with the 5
+                            star rating system
+                        </li>
+                        <li>
+                            “Reviewed,” “Like,” and “Watchlist” icons feel that
+                            they’re all similar, and users can hesitate on what
+                            to categorize the movie, since they’re all the same
+                            size
+                        </li>
+                    </ul>
+
+                    <h4>Efficiency</h4>
+                    <ul>
+                        <li>
+                            Bigger buttons are displayed for writing reviews and
+                            editing their star ratings
+                        </li>
+                        <li>
+                            Logic of tags being at the bottom and the rating and
+                            commentary being first is more efficient, as most
+                            important content is being showed first from top to
+                            bottom
+                        </li>
+                        <li>
+                            Adding comments is confusing, as there are multiple
+                            “steps” to actually put and type a comment (click on
+                            review, click on small icon, enter comment section
+                            as a whole new page, click empty text field, enter
+                            comment)
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr class="inner-divider" />
+
+            <section>
+                <h3>Accessibility</h3>
+                <p>
+                    Finally, I first used "WebAIM WAVE" to detect possible
+                    accessibility problems. However, it wasn't able to generate
+                    a report, so I reverted to using "Lighthouse" instead. The
+                    score came back with a score of <span>87/100</span>.
+                </p>
             </section>
         </section>
+
+        <hr class="outer-divider" />
+
+        todo
     </body>
 </html>
