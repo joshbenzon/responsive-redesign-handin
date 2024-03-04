@@ -135,8 +135,8 @@ a {
 
 /* CLASS STYLING */
 .outer-divider {
-    /* border: 1px solid #a0a5ac; */
     border: 1px solid #d8dce2;
+    width: 100%;
 
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -159,9 +159,7 @@ a {
 
 .caption {
     text-align: center;
-
     font-size: 1rem;
-    color: #908d8a;
 }
 
 .bullets {
