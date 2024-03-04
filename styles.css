@@ -1,0 +1,95 @@
+/* Fonts */
+/* DM SERIF */
+.dm-serif text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-serif text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* DM SANS */
+.dm-sans-extra-light,
+.dm-sans-thin,
+.dm-sans-light,
+.dm-sans-regular,
+.dm-sans-medium,
+.dm-sans-semibold,
+.dm-sans-bold,
+.dm-sans-extrabold,
+.dm-sans-black {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--weight, 400);
+    font-style: normal;
+}
+
+/* ALL STYLING */
+html {
+    display: flex;
+    justify-content: center;
+
+    background-color: #f7f7f7;
+    color: #101415;
+}
+
+body {
+    padding: 0rem;
+    margin: 0rem;
+    width: 70%;
+}
+
+section {
+    margin-top: 2.25rem;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0rem;
+    margin: 0rem;
+
+    margin-bottom: 0.75rem;
+}
+
+h1,
+h2,
+h3 {
+    /* dm-serif text-regular */
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    /* dm-sans-regular */
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+/* CLASS STYLING */
+
+/* ID STYLING */
