@@ -68,7 +68,7 @@
 
                 <div class="image">
                     <img
-                        src="./old-designs/Old Design (1).png"
+                        src="./old-designs/Old Design.png"
                         alt="Old Design of LetterBoxd"
                     />
                     <p class="caption">
@@ -94,17 +94,14 @@
                 </p>
 
                 <div class="image">
-                    <img
-                        src="./old-designs/Old Design (1).png"
-                        alt="Old Design of LetterBoxd"
-                    />
+                    <img src="./old-designs/Old Design.png" alt="TODO" />
                     <p class="caption">
                         Here are the main issues with the interface.
                     </p>
                 </div>
 
                 <div class="bullets">
-                    <h4>Learnability</h4>
+                    <h4>Learnability:</h4>
                     <ul>
                         <li>
                             Text for different links (rather than icons is
@@ -123,7 +120,7 @@
                         </li>
                     </ul>
 
-                    <h4>Memorability</h4>
+                    <h4>Memorability:</h4>
                     <ul>
                         <li>
                             Workflow is similar to DVD stands “RedBox” and
@@ -142,7 +139,7 @@
                         </li>
                     </ul>
 
-                    <h4>Efficiency</h4>
+                    <h4>Efficiency:</h4>
                     <ul>
                         <li>
                             Bigger buttons are displayed for writing reviews and
@@ -175,11 +172,54 @@
                     a report, so I reverted to using "Lighthouse" instead. The
                     score came back with a score of <span>87/100</span>.
                 </p>
+
+                <div class="bullets">
+                    <h4>Main Issues:</h4>
+                    <ul>
+                        <li>
+                            Background and foreground colors do not have a
+                            sufficient contrast ratio
+                        </li>
+                        <li>Links do not have a discernible name</li>
+                        <li>
+                            Image elements have [alt] attributes that are
+                            redundant text
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="image">
+                    <img
+                        src="./old-designs/Lighthouse Report.png"
+                        alt="Lighthouse Report for Letterboxd"
+                    />
+                    <p class="caption">
+                        Here is the Lighthouse Report for the old design.
+                    </p>
+                </div>
+
+                <p>
+                    Based on the findings, I mostly agree with the accessibility
+                    problems raised from the report. A lot of the icons (search
+                    icon, calendar icons, etc.) don’t have descriptive text on
+                    hover or as an “aria-label.” Likewise, I also found some of
+                    the issues about color contrast accessibility to be
+                    interesting, because from my point of view, the contrast
+                    looks legible; however, it’s important to note for users who
+                    have visual limitations are affected.
+                </p>
             </section>
         </section>
 
         <hr class="outer-divider" />
 
-        todo
+        <section>
+            <h2>Part 2: Visual Redesign</h2>
+
+            <section>
+                <h3>Speed Sketching</h3>
+                <p>todo</p>
+            </section>
+        </section>
     </body>
 </html>
