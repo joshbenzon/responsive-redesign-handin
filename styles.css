@@ -95,16 +95,16 @@ h4 {
     /* dm-sans-medium */
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
 }
 
 p,
 li {
-    /* dm-sans-regular */
+    /* dm-sans-light */
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
