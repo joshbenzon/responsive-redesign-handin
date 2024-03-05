@@ -46,7 +46,8 @@ body {
 }
 
 section {
-    margin-top: 2.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     justify-content: center;
 }
 
@@ -182,7 +183,15 @@ a {
 /* ID STYLING */
 #title {
     text-align: center;
-    margin-bottom: 3.5rem;
+    padding-top: 1.25rem;
+}
+
+#final-product {
+    width: 80%;
+}
+
+#conclusion {
+    padding-bottom: 1.75rem;
 }
 
 #mobile {
