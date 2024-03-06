@@ -1,3 +1,3 @@
-# Project #2h (Responsive Redesign HandIn)
+# Project #2b (Responsive Redesign HandIn)
 
 User Interface &amp; User Experience (CSCI 1300)
