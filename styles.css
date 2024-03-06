@@ -34,7 +34,6 @@ html {
     display: flex;
     justify-content: center;
 
-    /* background-color: #f7f7f7; */
     background-color: #f5fbff;
     color: #101415;
 }
@@ -42,12 +41,14 @@ html {
 body {
     padding: 0rem;
     margin: 0rem;
+
     width: 70%;
 }
 
 section {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
+
     justify-content: center;
 }
 
@@ -56,8 +57,8 @@ img {
     width: 100%;
     border-radius: 0.5rem;
 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 ul {
@@ -140,6 +141,7 @@ a {
 .horizontal-flex {
     display: flex;
     flex-direction: row;
+
     justify-content: space-around;
 }
 
